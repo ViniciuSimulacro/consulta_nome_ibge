@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #4e65ff, #92effd);
+    margin: 0 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: #fff;
+    padding: 15px 40px;
+    box-shadow: 15px 15px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+    position: relative;
+    font-size: 1.25em;
+    color: #bbb;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.box #form {
+    position: relative;
+}
+
+.box #form #email {
+    width: 400px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #333;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+#text {
+    display: block;
+    color: #999;
+    font-weight: 500;
+    padding: 5px 0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #CD9F8A;
+	background:linear-gradient(to bottom, #C46050 5%, #B5423A 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+    border: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #B5423A 5%, #C46050 100%);
+	background-color:#CD9F8A;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
