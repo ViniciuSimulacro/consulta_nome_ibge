@@ -10,7 +10,6 @@ def index():
     global nome
     if request.method == 'POST':
         nome = request.form['nome']   
-        print(nome) 
         return redirect(url_for('resposta',nome=nome))
     else:
         return render_template('index.html', nome=nome)
@@ -21,7 +20,7 @@ def resposta():
     request = requests.get(f'https://servicodados.ibge.gov.br/api/v2/censos/nomes/{nome}')
     request = request.json()
     if request == []:
-        print('Nome não encontrado')
+        return render_template('erro.html', nome=nome)
     else:
         periodos = (request[0]['res'])
         total = len(periodos)
