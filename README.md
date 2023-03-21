@@ -1,4 +1,4 @@
-Consulta Nome IBGE
+<h1>Consulta Nome IBGE<h1>
 Este projeto feito para consultar a quantidade de um determinado nome em cada CENSO realizado desde 1930. Ele utiliza a API de consulta de nomes do IBGE para obter as informações necessárias.
 
 Uso e Instalação
