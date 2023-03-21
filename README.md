@@ -11,6 +11,7 @@ pip install -r requirements.txt
 <h3>Uso</h3>
 O app ainda esta em ajuste, mas você pode testa-lo em rede local por enquanto, rodando o arquivo app.py após instalar as bibliotecas usadas.
 
+<h3>Contato</h3>
 Qualquer dúvida estou a disposição pelo linkedin: https://www.linkedin.com/in/vinicius-de-lucca-932198171/
 ou por e-mail: delucca86@gmail.com
 
