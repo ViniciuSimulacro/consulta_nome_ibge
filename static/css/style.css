@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
 .box h3 {
     position: relative;
     font-size: 1.25em;
-    color: #bbb;
+    color: rgb(43, 39, 39);
     letter-spacing: 0.1em;
     font-weight: 500;
     margin-bottom: 5px;

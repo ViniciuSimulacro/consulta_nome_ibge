@@ -24,7 +24,13 @@ body {
 }
 
 .text p {
+    margin-top: 5px;
     font-size: 25px;
+}
+
+.text #titulo {
+    margin-top: 5px;
+    font-size: 45px;
 }
 
 .imgbox {
@@ -34,10 +40,8 @@ body {
 
 .imgbox img {
     display: block;
-    width: 90%;
-    margin: 20px auto 0;
+    width: 40%;
+    margin-top: 0px;
+    margin: 5px auto 0;
 }
 
-h3 {
-    color: #f00;
-}

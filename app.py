@@ -33,7 +33,7 @@ def resposta():
                 resultado = f'No ano de 1930 nome {nome} teve {quantidade} registros!'
                 lista.append(resultado)
             else:
-                resultado = f'No período de {inicio} até {fim} o nome {nome} teve {quantidade} registros!'
+                resultado = f'Na década de {inicio} até {fim} o nome {nome} teve {quantidade} registros!'
                 lista.append(resultado)
     return render_template('resultado.html', nome=nome, lista=lista)
 
